@@ -1,7 +1,7 @@
 # KUSO2 Launch Script
 ![](https://cdn.discordapp.com/attachments/865992934612664340/1063578429271842826/image.png)
 
-Originally made just to quickly run PSO2NGS after crashing without relogging in again, this method bypasses the need to launch tweaker or the official launcher for PSO2NGSJP to run, and instead makes use of the [PSO2JP_Token_Generator](https://github.com/Cronoboxxy/PSO2JP_Token_Generator) as part of a batch script when run:
+Originally made just to quickly run PSO2NGS after crashing without relogging in again, this method bypasses the need to launch tweaker or the official launcher for PSO2NGSJP to run, and also makes use of the [PSO2JP_Token_Generator](https://github.com/Cronoboxxy/PSO2JP_Token_Generator) as part of a batch script when run:
  - Starts the game quickly. With or without token login.
  - Loads the token generator and launch the game quickly.
  - Reuse the token and starts the game quickly when needed.
