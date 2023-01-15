@@ -156,7 +156,7 @@ while ($true) {
             cd "$kuso2_auth"
             # Purging existing token, just to be safe.
             Remove-Item "auth.tmp" -Force -ErrorAction SilentlyContinue | Out-Null
-            New-Item "auth.tmp" -ItemType | Out-Null
+            New-Item "auth.tmp" -ItemType File | Out-Null
             # Calling the token generator
             Start-Process -FilePath "KUSO2_Token_Generator.exe" -Wait
             Write-Host ""
